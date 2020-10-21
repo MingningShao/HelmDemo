@@ -85,10 +85,10 @@ livenessProbe:
     port: 8080
   initialDelaySeconds: 10
   failureThreshold: 5
-  timeoutSeconds: 10
+  timeoutSeconds: 15
 readingnessProbe:
   tcpSocket:
     port: 8080
   initialDelaySeconds: 10
   failureThreshold: 5
-  timeoutSeconds: 10
+  timeoutSeconds: 15
