@@ -23,11 +23,11 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: publish helm chart
-        uses: MingningShao/helm-gh-pages@main
+        uses: MingningShao/HelmDemo@main
         with:
           token: ${{secrets.BOT_TOKEN}}
           charts_dir: chart
           charts_url: https://charts.fluxcd.io
           owner: fluxcd
           repository: charts
-          branch: main
+          branch: HelmDemo
