@@ -3,8 +3,6 @@ name: Release Charts
 on:
   push:
     branches: [ main ]
-    paths: 
-      - 'demochart/**'
 
 jobs:
   release:
