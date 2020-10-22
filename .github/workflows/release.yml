@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Publish Helm charts
-        uses: MingningShao/helm-gh-pages@master
+        uses: MingningShao/helm-gh-pages@main
         with:
           token: ${{secrets.GITHUB_TOKEN}}
       - name: Configure Git
